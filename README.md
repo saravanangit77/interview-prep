@@ -1,4 +1,4 @@
-# MAANG Interview Prep Tracker 🎯
+# Interview Prep Tracker 🎯
 
 A **local web application** for tracking structured MAANG (Meta, Apple, Amazon, Netflix, Google) interview preparation for experienced software engineers.
 
