@@ -1,28 +1,56 @@
 /**
- * StorageManager - Handles all LocalStorage operations for the app
+ * StorageManager - Handles all data persistence (Server JSON + LocalStorage backup)
  */
 class StorageManager {
   constructor() {
     this.STORAGE_KEY = 'maang_prep_tracker';
-    this.initStorage();
+    this.API_BASE = '/api';
+    this.isInitialized = false;
+    this.initPromise = this.initStorage();
   }
 
   /**
-   * Initialize storage with default structure if not exists
+   * Initialize storage - Load from server, fallback to localStorage
    */
-  initStorage() {
-    if (!localStorage.getItem(this.STORAGE_KEY)) {
-      const defaultData = {
-        progress: {},
-        settings: {
-          darkMode: false,
-          showDifficulty: false,
-          showEstimatedTime: false
-        },
-        customProblems: []
-      };
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(defaultData));
+  async initStorage() {
+    try {
+      // Try to load from server first
+      const response = await fetch(`${this.API_BASE}/progress`);
+      if (response.ok) {
+        const serverData = await response.json();
+        
+        // Save to localStorage as backup
+        localStorage.setItem(this.STORAGE_KEY, JSON.stringify(serverData));
+        
+        this.isInitialized = true;
+        console.log('✅ Progress loaded from server');
+        return serverData;
+      }
+    } catch (error) {
+      console.warn('⚠️ Server unavailable, using localStorage:', error.message);
     }
+    
+    // Fallback to localStorage
+    const localData = localStorage.getItem(this.STORAGE_KEY);
+    if (localData) {
+      this.isInitialized = true;
+      return JSON.parse(localData);
+    }
+    
+    // Create default data
+    const defaultData = {
+      progress: {},
+      settings: {
+        darkMode: false,
+        showDifficulty: false,
+        showEstimatedTime: false
+      },
+      customProblems: []
+    };
+    
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(defaultData));
+    this.isInitialized = true;
+    return defaultData;
   }
 
   /**
@@ -38,15 +66,44 @@ class StorageManager {
   }
 
   /**
-   * Save all data to storage
+   * Save all data to storage (localStorage + server)
    */
-  setData(data) {
+  async setData(data) {
     try {
+      // Save to localStorage immediately
       localStorage.setItem(this.STORAGE_KEY, JSON.stringify(data));
+      
+      // Sync to server in background
+      this.syncToServer(data);
+      
       return true;
     } catch (error) {
       console.error('Error writing to localStorage:', error);
       return false;
+    }
+  }
+
+  /**
+   * Sync data to server
+   */
+  async syncToServer(data) {
+    try {
+      const response = await fetch(`${this.API_BASE}/progress`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+      
+      if (response.ok) {
+        const result = await response.json();
+        console.log('✅ Progress synced to server at', result.lastUpdated);
+      } else {
+        console.warn('⚠️ Failed to sync to server, but saved locally');
+      }
+    } catch (error) {
+      console.warn('⚠️ Server sync failed, but saved locally:', error.message);
     }
   }
 

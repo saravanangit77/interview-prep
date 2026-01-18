@@ -24,3 +24,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# User Progress Data (personal data, not to be committed)
+data/user-progress.json

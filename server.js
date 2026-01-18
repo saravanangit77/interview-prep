@@ -76,6 +76,58 @@ app.get('/api/topics', (req, res) => {
   }
 });
 
+// Get user progress
+app.get('/api/progress', (req, res) => {
+  try {
+    const progressPath = path.join(__dirname, 'data', 'user-progress.json');
+    
+    // Create file with default data if it doesn't exist
+    if (!fs.existsSync(progressPath)) {
+      const defaultData = {
+        progress: {},
+        settings: {
+          darkMode: false,
+          showDifficulty: false,
+          showEstimatedTime: false
+        },
+        customProblems: [],
+        lastUpdated: null
+      };
+      fs.writeFileSync(progressPath, JSON.stringify(defaultData, null, 2));
+      return res.json(defaultData);
+    }
+    
+    const progressData = fs.readFileSync(progressPath, 'utf-8');
+    res.json(JSON.parse(progressData));
+  } catch (error) {
+    console.error('Error reading user-progress.json:', error);
+    res.status(500).json({ error: 'Failed to load progress' });
+  }
+});
+
+// Save user progress
+app.post('/api/progress', (req, res) => {
+  try {
+    const progressPath = path.join(__dirname, 'data', 'user-progress.json');
+    const userData = req.body;
+    
+    // Add lastUpdated timestamp
+    userData.lastUpdated = new Date().toISOString();
+    
+    // Write to file
+    fs.writeFileSync(progressPath, JSON.stringify(userData, null, 2));
+    
+    res.json({ 
+      success: true, 
+      message: 'Progress saved successfully',
+      lastUpdated: userData.lastUpdated
+    });
+  } catch (error) {
+    console.error('Error writing user-progress.json:', error);
+    res.status(500).json({ error: 'Failed to save progress' });
+  }
+});
+
 // Serve index.html for root
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
