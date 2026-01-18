@@ -2,6 +2,8 @@
 
 A **local web application** for tracking structured MAANG (Meta, Apple, Amazon, Netflix, Google) interview preparation for experienced software engineers.
 
+> **📌 Note:** The `main` branch is a **clean template** with no user data. Your progress is stored in your **browser's LocalStorage** and is not tracked in git. For personal progress tracking, create your own branch (e.g., `progress/YOUR_NAME`).
+
 ## ✨ Features
 
 - **125+ Curated Problems** with real links to LeetCode, HackerRank, GeeksForGeeks
@@ -219,6 +221,28 @@ The Portfolio page provides exportable proof of your structured preparation:
 - **No Tracking:** Zero analytics or external requests
 - **No Login:** No accounts, no authentication required
 - **Your Data:** Export anytime, own your progress
+
+### 📂 Personal Progress Branches
+
+Since progress is stored in **browser LocalStorage** (not in git), you can work on any branch:
+
+**For Personal Use:**
+```bash
+# Create your personal progress branch
+git checkout -b progress/YOUR_NAME
+
+# Work and track your progress
+# (All progress stays in your browser's LocalStorage)
+
+# Push your branch (optional - for backup/sync)
+git push -u origin progress/YOUR_NAME
+```
+
+**For Team/Friends:**
+- Clone the repository from `main` branch
+- Each person creates their own `progress/NAME` branch
+- The `main` branch stays clean for everyone to use
+- Progress is personal and local to each browser
 
 ## 🛠️ Development
 
