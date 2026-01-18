@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAANG Interview Prep Tracker</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="top-bar">
+    <div class="top-bar-content">
+      <div class="app-title-container">
+        <img src="logo.svg" alt="MAANG Prep Logo" class="app-logo">
+        <h1 class="app-title">MAANG Interview Prep Tracker</h1>
+      </div>
+      <div class="top-bar-actions">
+        <a href="portfolio.html" class="btn-portfolio">📊 Portfolio</a>
+        <button class="btn-settings" id="settingsBtn">⚙️ Settings</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Topics</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+      </div>
+      <nav class="sidebar-nav" id="sidebarNav">
+        <!-- Navigation will be populated by JavaScript -->
+        <div class="loading">Loading topics...</div>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div class="content-header">
+        <h2 id="topicTitle">Select a topic to start</h2>
+        <div class="content-actions">
+          <button class="btn-secondary" id="addCustomProblemBtn" style="display: none;">
+            ➕ Add Custom Problem
+          </button>
+          <button class="btn-secondary" id="resetTopicBtn" style="display: none;">
+            🔄 Reset Topic Progress
+          </button>
+        </div>
+      </div>
+      
+      <div class="problem-stats" id="problemStats" style="display: none;">
+        <div class="stat-item">
+          <span class="stat-label">Total:</span>
+          <span class="stat-value" id="totalProblems">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Completed:</span>
+          <span class="stat-value" id="completedProblems">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Progress:</span>
+          <span class="stat-value" id="progressPercentage">0%</span>
+        </div>
+      </div>
+
+      <div class="problem-list" id="problemList">
+        <div class="welcome-message">
+          <h3>Welcome to MAANG Interview Prep Tracker! 🚀</h3>
+          <p>Select a topic from the sidebar to start tracking your interview preparation.</p>
+          <ul class="welcome-features">
+            <li>✅ Track 100+ curated MAANG-level problems</li>
+            <li>📚 Organized by DSA, System Design, and Behavioral topics</li>
+            <li>📝 Add notes to each problem</li>
+            <li>📊 View your progress in the Portfolio page</li>
+            <li>💾 All progress saved locally</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal" id="settingsModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Settings</h2>
+        <button class="modal-close" id="closeSettingsBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="settings-section">
+          <h3>Display Options</h3>
+          <div class="setting-item">
+            <label class="toggle-switch">
+              <input type="checkbox" id="darkModeToggle">
+              <span class="toggle-slider"></span>
+            </label>
+            <div class="setting-info">
+              <strong>Dark Mode</strong>
+              <p>Enable dark theme for comfortable viewing in low light</p>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label class="toggle-switch">
+              <input type="checkbox" id="showDifficulty">
+              <span class="toggle-slider"></span>
+            </label>
+            <div class="setting-info">
+              <strong>Show Difficulty</strong>
+              <p>Display difficulty level (Easy/Medium/Hard) for each problem</p>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label class="toggle-switch">
+              <input type="checkbox" id="showEstimatedTime">
+              <span class="toggle-slider"></span>
+            </label>
+            <div class="setting-info">
+              <strong>Show Estimated Time</strong>
+              <p>Display estimated time to solve each problem</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <h3>Data Management</h3>
+          <button class="btn-primary" id="exportDataBtn">📥 Export Progress</button>
+          <button class="btn-primary" id="importDataBtn">📤 Import Progress</button>
+          <input type="file" id="importFileInput" accept=".json" style="display: none;">
+          <button class="btn-danger" id="resetAllBtn">🗑️ Reset All Progress</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Custom Problem Modal -->
+  <div class="modal" id="addProblemModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Add Custom Problem</h2>
+        <button class="modal-close" id="closeAddProblemBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="addProblemForm">
+          <div class="form-group">
+            <label for="problemTitle">Problem Title *</label>
+            <input type="text" id="problemTitle" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="problemLink">Problem Link *</label>
+            <input type="url" id="problemLink" placeholder="https://leetcode.com/..." required>
+          </div>
+          
+          <div class="form-group">
+            <label for="problemPlatform">Platform</label>
+            <input type="text" id="problemPlatform" placeholder="LeetCode, HackerRank, etc.">
+          </div>
+          
+          <div class="form-group">
+            <label for="problemType">Type *</label>
+            <select id="problemType" required>
+              <option value="solve">Solve</option>
+              <option value="read">Read & Understand</option>
+              <option value="explain">Explain Verbally</option>
+              <option value="whiteboard">Whiteboard Dry Run</option>
+              <option value="design">Design & Discuss</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="problemDifficulty">Difficulty (Optional)</label>
+            <select id="problemDifficulty">
+              <option value="">-- Select --</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="problemTime">Estimated Time (minutes, optional)</label>
+            <input type="number" id="problemTime" min="0" placeholder="e.g., 30">
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Add Problem</button>
+            <button type="button" class="btn-secondary" id="cancelAddProblemBtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+

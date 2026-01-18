@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - MAANG Interview Prep Tracker</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="top-bar">
+    <div class="top-bar-content">
+      <div class="app-title-container">
+        <img src="logo.svg" alt="MAANG Prep Logo" class="app-logo">
+        <h1 class="app-title">Interview Prep Portfolio</h1>
+      </div>
+      <div class="top-bar-actions">
+        <a href="index.html" class="btn-portfolio">← Back to Dashboard</a>
+        <button class="btn-export" id="exportPortfolioBtn">📥 Export Summary</button>
+        <button class="btn-print" id="printPortfolioBtn">🖨️ Print</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="portfolio-container">
+    <!-- Overall Statistics -->
+    <section class="portfolio-section">
+      <h2>Overall Progress</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">✅</div>
+          <div class="stat-content">
+            <div class="stat-number" id="totalCompleted">0</div>
+            <div class="stat-label">Problems Solved</div>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">📚</div>
+          <div class="stat-content">
+            <div class="stat-number" id="totalProblems">0</div>
+            <div class="stat-label">Total Problems</div>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">📈</div>
+          <div class="stat-content">
+            <div class="stat-number" id="overallPercentage">0%</div>
+            <div class="stat-label">Completion Rate</div>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">🔥</div>
+          <div class="stat-content">
+            <div class="stat-number" id="streakDays">0</div>
+            <div class="stat-label">Days Active</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Breakdown -->
+    <section class="portfolio-section">
+      <h2>Category-wise Progress</h2>
+      <div class="category-stats" id="categoryStats">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Topic Breakdown -->
+    <section class="portfolio-section">
+      <h2>Topic-wise Progress</h2>
+      <div class="topic-stats" id="topicStats">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Recent Activity -->
+    <section class="portfolio-section">
+      <h2>Recent Activity</h2>
+      <div class="activity-timeline" id="activityTimeline">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Difficulty Breakdown -->
+    <section class="portfolio-section">
+      <h2>Difficulty Distribution</h2>
+      <div class="difficulty-stats" id="difficultyStats">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Problem Type Breakdown -->
+    <section class="portfolio-section">
+      <h2>Problem Types Completed</h2>
+      <div class="type-stats" id="typeStats">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Printable Summary -->
+    <section class="portfolio-section print-only">
+      <h2>Interview Preparation Summary</h2>
+      <div id="printSummary">
+        <!-- Populated when printing -->
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
+

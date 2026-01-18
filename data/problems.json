@@ -1,0 +1,2026 @@
+{
+  "categories": [
+    {
+      "id": "dsa",
+      "name": "Data Structures & Algorithms",
+      "topics": [
+        {
+          "id": "arrays-strings",
+          "name": "Arrays & Strings",
+          "subtopics": [
+            {
+              "id": "two-pointers",
+              "name": "Two Pointers",
+              "problems": [
+                {
+                  "id": "two-sum",
+                  "title": "Two Sum",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/two-sum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "container-most-water",
+                  "title": "Container With Most Water",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/container-with-most-water/"
+                    }
+                  ]
+                },
+                {
+                  "id": "3sum",
+                  "title": "3Sum",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/3sum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "remove-duplicates-sorted-array",
+                  "title": "Remove Duplicates from Sorted Array",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+                    }
+                  ]
+                },
+                {
+                  "id": "trapping-rain-water",
+                  "title": "Trapping Rain Water",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/trapping-rain-water/"
+                    }
+                  ]
+                },
+                {
+                  "id": "valid-palindrome",
+                  "title": "Valid Palindrome",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/valid-palindrome/"
+                    }
+                  ]
+                },
+                {
+                  "id": "move-zeroes",
+                  "title": "Move Zeroes",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/move-zeroes/"
+                    }
+                  ]
+                },
+                {
+                  "id": "sort-colors",
+                  "title": "Sort Colors (Dutch National Flag)",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/sort-colors/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sliding-window",
+              "name": "Sliding Window",
+              "problems": [
+                {
+                  "id": "longest-substring-without-repeating",
+                  "title": "Longest Substring Without Repeating Characters",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+                    }
+                  ]
+                },
+                {
+                  "id": "minimum-window-substring",
+                  "title": "Minimum Window Substring",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/minimum-window-substring/"
+                    }
+                  ]
+                },
+                {
+                  "id": "sliding-window-maximum",
+                  "title": "Sliding Window Maximum",
+                  "difficulty": "hard",
+                  "estimatedTime": 40,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/sliding-window-maximum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "longest-repeating-character-replacement",
+                  "title": "Longest Repeating Character Replacement",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+                    }
+                  ]
+                },
+                {
+                  "id": "permutation-in-string",
+                  "title": "Permutation in String",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/permutation-in-string/"
+                    }
+                  ]
+                },
+                {
+                  "id": "fruit-into-baskets",
+                  "title": "Fruit Into Baskets",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/fruit-into-baskets/"
+                    }
+                  ]
+                },
+                {
+                  "id": "max-consecutive-ones-iii",
+                  "title": "Max Consecutive Ones III",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+                    }
+                  ]
+                },
+                {
+                  "id": "find-all-anagrams",
+                  "title": "Find All Anagrams in a String",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prefix-sum",
+              "name": "Prefix Sum",
+              "problems": [
+                {
+                  "id": "subarray-sum-equals-k",
+                  "title": "Subarray Sum Equals K",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+                    }
+                  ]
+                },
+                {
+                  "id": "range-sum-query",
+                  "title": "Range Sum Query - Immutable",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/range-sum-query-immutable/"
+                    }
+                  ]
+                },
+                {
+                  "id": "product-array-except-self",
+                  "title": "Product of Array Except Self",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/product-of-array-except-self/"
+                    }
+                  ]
+                },
+                {
+                  "id": "continuous-subarray-sum",
+                  "title": "Continuous Subarray Sum",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/continuous-subarray-sum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "contiguous-array",
+                  "title": "Contiguous Array",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/contiguous-array/"
+                    }
+                  ]
+                },
+                {
+                  "id": "subarray-sums-divisible-k",
+                  "title": "Subarray Sums Divisible by K",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/"
+                    }
+                  ]
+                },
+                {
+                  "id": "maximum-size-subarray-sum-k",
+                  "title": "Maximum Size Subarray Sum Equals k",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/"
+                    }
+                  ]
+                },
+                {
+                  "id": "range-sum-query-2d",
+                  "title": "Range Sum Query 2D - Immutable",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "linked-list",
+          "name": "Linked List",
+          "subtopics": [
+            {
+              "id": "linked-list-basics",
+              "name": "Linked List Operations",
+              "problems": [
+                {
+                  "id": "reverse-linked-list",
+                  "title": "Reverse Linked List",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/reverse-linked-list/"
+                    }
+                  ]
+                },
+                {
+                  "id": "linked-list-cycle",
+                  "title": "Linked List Cycle",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/linked-list-cycle/"
+                    }
+                  ]
+                },
+                {
+                  "id": "merge-two-sorted-lists",
+                  "title": "Merge Two Sorted Lists",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+                    }
+                  ]
+                },
+                {
+                  "id": "remove-nth-node",
+                  "title": "Remove Nth Node From End of List",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+                    }
+                  ]
+                },
+                {
+                  "id": "reorder-list",
+                  "title": "Reorder List",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/reorder-list/"
+                    }
+                  ]
+                },
+                {
+                  "id": "add-two-numbers",
+                  "title": "Add Two Numbers",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/add-two-numbers/"
+                    }
+                  ]
+                },
+                {
+                  "id": "copy-list-random-pointer",
+                  "title": "Copy List with Random Pointer",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+                    }
+                  ]
+                },
+                {
+                  "id": "intersection-two-linked-lists",
+                  "title": "Intersection of Two Linked Lists",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+                    }
+                  ]
+                },
+                {
+                  "id": "palindrome-linked-list",
+                  "title": "Palindrome Linked List",
+                  "difficulty": "easy",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/palindrome-linked-list/"
+                    }
+                  ]
+                },
+                {
+                  "id": "merge-k-sorted-lists",
+                  "title": "Merge k Sorted Lists",
+                  "difficulty": "hard",
+                  "estimatedTime": 40,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stack-queue",
+          "name": "Stack & Queue",
+          "subtopics": [
+            {
+              "id": "stack-queue-problems",
+              "name": "Stack & Queue Problems",
+              "problems": [
+                {
+                  "id": "valid-parentheses",
+                  "title": "Valid Parentheses",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/valid-parentheses/"
+                    }
+                  ]
+                },
+                {
+                  "id": "min-stack",
+                  "title": "Min Stack",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/min-stack/"
+                    }
+                  ]
+                },
+                {
+                  "id": "evaluate-reverse-polish",
+                  "title": "Evaluate Reverse Polish Notation",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+                    }
+                  ]
+                },
+                {
+                  "id": "daily-temperatures",
+                  "title": "Daily Temperatures",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/daily-temperatures/"
+                    }
+                  ]
+                },
+                {
+                  "id": "largest-rectangle-histogram",
+                  "title": "Largest Rectangle in Histogram",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+                    }
+                  ]
+                },
+                {
+                  "id": "implement-queue-using-stacks",
+                  "title": "Implement Queue using Stacks",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+                    }
+                  ]
+                },
+                {
+                  "id": "next-greater-element",
+                  "title": "Next Greater Element I",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/next-greater-element-i/"
+                    }
+                  ]
+                },
+                {
+                  "id": "basic-calculator",
+                  "title": "Basic Calculator",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/basic-calculator/"
+                    }
+                  ]
+                },
+                {
+                  "id": "decode-string",
+                  "title": "Decode String",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/decode-string/"
+                    }
+                  ]
+                },
+                {
+                  "id": "asteroid-collision",
+                  "title": "Asteroid Collision",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/asteroid-collision/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hashing",
+          "name": "Hashing & Sets",
+          "subtopics": [
+            {
+              "id": "hash-problems",
+              "name": "Hash Table Problems",
+              "problems": [
+                {
+                  "id": "group-anagrams",
+                  "title": "Group Anagrams",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/group-anagrams/"
+                    }
+                  ]
+                },
+                {
+                  "id": "top-k-frequent-elements",
+                  "title": "Top K Frequent Elements",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+                    }
+                  ]
+                },
+                {
+                  "id": "longest-consecutive-sequence",
+                  "title": "Longest Consecutive Sequence",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+                    }
+                  ]
+                },
+                {
+                  "id": "lru-cache",
+                  "title": "LRU Cache",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/lru-cache/"
+                    }
+                  ]
+                },
+                {
+                  "id": "first-missing-positive",
+                  "title": "First Missing Positive",
+                  "difficulty": "hard",
+                  "estimatedTime": 40,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/first-missing-positive/"
+                    }
+                  ]
+                },
+                {
+                  "id": "contains-duplicate-ii",
+                  "title": "Contains Duplicate II",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/contains-duplicate-ii/"
+                    }
+                  ]
+                },
+                {
+                  "id": "valid-sudoku",
+                  "title": "Valid Sudoku",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/valid-sudoku/"
+                    }
+                  ]
+                },
+                {
+                  "id": "design-hashmap",
+                  "title": "Design HashMap",
+                  "difficulty": "easy",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/design-hashmap/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trees",
+          "name": "Trees",
+          "subtopics": [
+            {
+              "id": "tree-problems",
+              "name": "Tree Traversal & Operations",
+              "problems": [
+                {
+                  "id": "maximum-depth-binary-tree",
+                  "title": "Maximum Depth of Binary Tree",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "invert-binary-tree",
+                  "title": "Invert Binary Tree",
+                  "difficulty": "easy",
+                  "estimatedTime": 15,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/invert-binary-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "validate-bst",
+                  "title": "Validate Binary Search Tree",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "lowest-common-ancestor-bst",
+                  "title": "Lowest Common Ancestor of a BST",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "binary-tree-level-order",
+                  "title": "Binary Tree Level Order Traversal",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+                    }
+                  ]
+                },
+                {
+                  "id": "serialize-deserialize-tree",
+                  "title": "Serialize and Deserialize Binary Tree",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "binary-tree-maximum-path-sum",
+                  "title": "Binary Tree Maximum Path Sum",
+                  "difficulty": "hard",
+                  "estimatedTime": 40,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "kth-smallest-bst",
+                  "title": "Kth Smallest Element in a BST",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+                    }
+                  ]
+                },
+                {
+                  "id": "construct-tree-preorder-inorder",
+                  "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+                    }
+                  ]
+                },
+                {
+                  "id": "binary-tree-right-side-view",
+                  "title": "Binary Tree Right Side View",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "graphs",
+          "name": "Graphs",
+          "subtopics": [
+            {
+              "id": "graph-problems",
+              "name": "Graph Algorithms",
+              "problems": [
+                {
+                  "id": "number-of-islands",
+                  "title": "Number of Islands",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/number-of-islands/"
+                    }
+                  ]
+                },
+                {
+                  "id": "clone-graph",
+                  "title": "Clone Graph",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/clone-graph/"
+                    }
+                  ]
+                },
+                {
+                  "id": "course-schedule",
+                  "title": "Course Schedule",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/course-schedule/"
+                    }
+                  ]
+                },
+                {
+                  "id": "pacific-atlantic-water-flow",
+                  "title": "Pacific Atlantic Water Flow",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+                    }
+                  ]
+                },
+                {
+                  "id": "word-ladder",
+                  "title": "Word Ladder",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/word-ladder/"
+                    }
+                  ]
+                },
+                {
+                  "id": "network-delay-time",
+                  "title": "Network Delay Time",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/network-delay-time/"
+                    }
+                  ]
+                },
+                {
+                  "id": "redundant-connection",
+                  "title": "Redundant Connection",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/redundant-connection/"
+                    }
+                  ]
+                },
+                {
+                  "id": "graph-valid-tree",
+                  "title": "Graph Valid Tree",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/graph-valid-tree/"
+                    }
+                  ]
+                },
+                {
+                  "id": "alien-dictionary",
+                  "title": "Alien Dictionary",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/alien-dictionary/"
+                    }
+                  ]
+                },
+                {
+                  "id": "cheapest-flights-k-stops",
+                  "title": "Cheapest Flights Within K Stops",
+                  "difficulty": "medium",
+                  "estimatedTime": 40,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "recursion-backtracking",
+          "name": "Recursion & Backtracking",
+          "subtopics": [
+            {
+              "id": "backtracking-problems",
+              "name": "Backtracking Problems",
+              "problems": [
+                {
+                  "id": "subsets",
+                  "title": "Subsets",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/subsets/"
+                    }
+                  ]
+                },
+                {
+                  "id": "permutations",
+                  "title": "Permutations",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/permutations/"
+                    }
+                  ]
+                },
+                {
+                  "id": "combination-sum",
+                  "title": "Combination Sum",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/combination-sum/"
+                    }
+                  ]
+                },
+                {
+                  "id": "letter-combinations-phone",
+                  "title": "Letter Combinations of a Phone Number",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+                    }
+                  ]
+                },
+                {
+                  "id": "word-search",
+                  "title": "Word Search",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/word-search/"
+                    }
+                  ]
+                },
+                {
+                  "id": "n-queens",
+                  "title": "N-Queens",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/n-queens/"
+                    }
+                  ]
+                },
+                {
+                  "id": "palindrome-partitioning",
+                  "title": "Palindrome Partitioning",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/palindrome-partitioning/"
+                    }
+                  ]
+                },
+                {
+                  "id": "generate-parentheses",
+                  "title": "Generate Parentheses",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/generate-parentheses/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dynamic-programming",
+          "name": "Dynamic Programming",
+          "subtopics": [
+            {
+              "id": "dp-problems",
+              "name": "DP Problems",
+              "problems": [
+                {
+                  "id": "climbing-stairs",
+                  "title": "Climbing Stairs",
+                  "difficulty": "easy",
+                  "estimatedTime": 20,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/climbing-stairs/"
+                    }
+                  ]
+                },
+                {
+                  "id": "house-robber",
+                  "title": "House Robber",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/house-robber/"
+                    }
+                  ]
+                },
+                {
+                  "id": "coin-change",
+                  "title": "Coin Change",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/coin-change/"
+                    }
+                  ]
+                },
+                {
+                  "id": "longest-increasing-subsequence",
+                  "title": "Longest Increasing Subsequence",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+                    }
+                  ]
+                },
+                {
+                  "id": "longest-common-subsequence",
+                  "title": "Longest Common Subsequence",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/longest-common-subsequence/"
+                    }
+                  ]
+                },
+                {
+                  "id": "word-break",
+                  "title": "Word Break",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/word-break/"
+                    }
+                  ]
+                },
+                {
+                  "id": "unique-paths",
+                  "title": "Unique Paths",
+                  "difficulty": "medium",
+                  "estimatedTime": 25,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/unique-paths/"
+                    }
+                  ]
+                },
+                {
+                  "id": "edit-distance",
+                  "title": "Edit Distance",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/edit-distance/"
+                    }
+                  ]
+                },
+                {
+                  "id": "decode-ways",
+                  "title": "Decode Ways",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/decode-ways/"
+                    }
+                  ]
+                },
+                {
+                  "id": "partition-equal-subset-sum",
+                  "title": "Partition Equal Subset Sum",
+                  "difficulty": "medium",
+                  "estimatedTime": 35,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design",
+      "topics": [
+        {
+          "id": "url-shortener",
+          "name": "URL Shortener",
+          "subtopics": [
+            {
+              "id": "url-shortener-design",
+              "name": "URL Shortener Design",
+              "problems": [
+                {
+                  "id": "url-shortener-basic",
+                  "title": "Design URL Shortener - Basic Architecture",
+                  "difficulty": "medium",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-url-shortening-service/"
+                    },
+                    {
+                      "platform": "HackerRank",
+                      "url": "https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR"
+                    }
+                  ]
+                },
+                {
+                  "id": "url-shortener-scale",
+                  "title": "URL Shortener - Scaling to Millions",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/how-to-design-a-tiny-url-or-url-shortener/"
+                    }
+                  ]
+                },
+                {
+                  "id": "url-shortener-cache",
+                  "title": "URL Shortener - Caching Strategy",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-url-shortening-service/"
+                    }
+                  ]
+                },
+                {
+                  "id": "url-shortener-analytics",
+                  "title": "URL Shortener - Analytics & Click Tracking",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-url-shortening-service/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "feed-system",
+          "name": "Feed System",
+          "subtopics": [
+            {
+              "id": "feed-system-design",
+              "name": "News Feed Design",
+              "problems": [
+                {
+                  "id": "twitter-feed",
+                  "title": "Design Twitter Feed",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/design-twitter/"
+                    },
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-twitter-a-system-design-interview-question/"
+                    }
+                  ]
+                },
+                {
+                  "id": "instagram-feed",
+                  "title": "Design Instagram Feed Architecture",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-instagram-system-design-interview-question/"
+                    }
+                  ]
+                },
+                {
+                  "id": "feed-ranking",
+                  "title": "News Feed Ranking Algorithm",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-of-news-feed/"
+                    }
+                  ]
+                },
+                {
+                  "id": "feed-fanout",
+                  "title": "Feed Fanout Strategy (Push vs Pull)",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-of-news-feed/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chat-system",
+          "name": "Chat System",
+          "subtopics": [
+            {
+              "id": "chat-system-design",
+              "name": "Chat System Design",
+              "problems": [
+                {
+                  "id": "whatsapp-basic",
+                  "title": "Design WhatsApp - Basic Architecture",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-whatsapp-a-system-design-interview-question/"
+                    }
+                  ]
+                },
+                {
+                  "id": "chat-websockets",
+                  "title": "Real-time Chat with WebSockets",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-a-chat-system/"
+                    }
+                  ]
+                },
+                {
+                  "id": "chat-message-storage",
+                  "title": "Chat Message Storage & Retrieval",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-a-chat-system/"
+                    }
+                  ]
+                },
+                {
+                  "id": "group-chat",
+                  "title": "Group Chat & Broadcasting",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-a-chat-system/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "caching",
+          "name": "Caching Strategies",
+          "subtopics": [
+            {
+              "id": "caching-patterns",
+              "name": "Caching Patterns",
+              "problems": [
+                {
+                  "id": "lru-cache-impl",
+                  "title": "Implement LRU Cache",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "solve",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/lru-cache/"
+                    }
+                  ]
+                },
+                {
+                  "id": "cdn-design",
+                  "title": "Design Content Delivery Network (CDN)",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/what-is-cdn-content-delivery-network/"
+                    }
+                  ]
+                },
+                {
+                  "id": "redis-patterns",
+                  "title": "Redis Caching Patterns & Use Cases",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/redis-caching/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "database-design",
+          "name": "Database Design",
+          "subtopics": [
+            {
+              "id": "db-design-patterns",
+              "name": "Database Design Patterns",
+              "problems": [
+                {
+                  "id": "db-normalization",
+                  "title": "Database Normalization & Design Principles",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/introduction-of-database-normalization/"
+                    }
+                  ]
+                },
+                {
+                  "id": "db-indexing",
+                  "title": "Database Indexing Strategies",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
+                    }
+                  ]
+                },
+                {
+                  "id": "sql-vs-nosql",
+                  "title": "SQL vs NoSQL - When to Use What",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/difference-between-sql-and-nosql/"
+                    }
+                  ]
+                },
+                {
+                  "id": "db-partitioning",
+                  "title": "Database Partitioning Techniques",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/database-partitioning/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sharding-replication",
+          "name": "Sharding & Replication",
+          "subtopics": [
+            {
+              "id": "sharding-patterns",
+              "name": "Sharding & Replication",
+              "problems": [
+                {
+                  "id": "db-sharding",
+                  "title": "Database Sharding Strategies",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/database-sharding-a-system-design-concept/"
+                    }
+                  ]
+                },
+                {
+                  "id": "db-replication",
+                  "title": "Database Replication (Master-Slave)",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/database-replication/"
+                    }
+                  ]
+                },
+                {
+                  "id": "consistent-hashing",
+                  "title": "Consistent Hashing",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/consistent-hashing/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pubsub-queues",
+          "name": "Pub/Sub & Queues",
+          "subtopics": [
+            {
+              "id": "messaging-systems",
+              "name": "Messaging Systems",
+              "problems": [
+                {
+                  "id": "kafka-basics",
+                  "title": "Apache Kafka - Pub/Sub Patterns",
+                  "difficulty": "medium",
+                  "estimatedTime": 60,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/apache-kafka/"
+                    }
+                  ]
+                },
+                {
+                  "id": "rabbitmq-patterns",
+                  "title": "RabbitMQ Message Queue Patterns",
+                  "difficulty": "medium",
+                  "estimatedTime": 60,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/message-queues/"
+                    }
+                  ]
+                },
+                {
+                  "id": "notification-system",
+                  "title": "Design Notification System",
+                  "difficulty": "hard",
+                  "estimatedTime": 60,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/design-notification-system/"
+                    }
+                  ]
+                },
+                {
+                  "id": "task-scheduler",
+                  "title": "Design Task Scheduler",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "LeetCode",
+                      "url": "https://leetcode.com/problems/task-scheduler/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "api-design",
+          "name": "API Design",
+          "subtopics": [
+            {
+              "id": "api-patterns",
+              "name": "API Design Patterns",
+              "problems": [
+                {
+                  "id": "rest-api-design",
+                  "title": "RESTful API Design Best Practices",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/rest-api-introduction/"
+                    }
+                  ]
+                },
+                {
+                  "id": "graphql-vs-rest",
+                  "title": "GraphQL vs REST",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/graphql-vs-rest/"
+                    }
+                  ]
+                },
+                {
+                  "id": "rate-limiting",
+                  "title": "API Rate Limiting Strategies",
+                  "difficulty": "medium",
+                  "estimatedTime": 45,
+                  "type": "design",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/rate-limiting-in-system-design/"
+                    }
+                  ]
+                },
+                {
+                  "id": "api-versioning",
+                  "title": "API Versioning Strategies",
+                  "difficulty": "easy",
+                  "estimatedTime": 30,
+                  "type": "read",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/api-versioning/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behavioral",
+      "name": "Behavioral / Engineering Maturity",
+      "topics": [
+        {
+          "id": "debugging",
+          "name": "Debugging Stories",
+          "subtopics": [
+            {
+              "id": "debugging-scenarios",
+              "name": "Debugging Scenarios",
+              "problems": [
+                {
+                  "id": "prod-outage-story",
+                  "title": "Tell me about a time you debugged a production outage",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "performance-issue",
+                  "title": "Describe debugging a critical performance issue",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "memory-leak",
+                  "title": "How did you identify and fix a memory leak?",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/what-is-memory-leak-how-can-we-avoid/"
+                    }
+                  ]
+                },
+                {
+                  "id": "race-condition",
+                  "title": "Explain debugging a race condition or concurrency bug",
+                  "difficulty": "hard",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/introduction-of-process-synchronization/"
+                    }
+                  ]
+                },
+                {
+                  "id": "data-corruption",
+                  "title": "Describe resolving a data corruption issue",
+                  "difficulty": "hard",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tradeoffs",
+          "name": "Trade-off Discussions",
+          "subtopics": [
+            {
+              "id": "technical-tradeoffs",
+              "name": "Technical Trade-offs",
+              "problems": [
+                {
+                  "id": "sql-vs-nosql-tradeoff",
+                  "title": "SQL vs NoSQL - When and why to choose?",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/difference-between-sql-and-nosql/"
+                    }
+                  ]
+                },
+                {
+                  "id": "monolith-vs-microservices",
+                  "title": "Monolith vs Microservices trade-offs",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/"
+                    }
+                  ]
+                },
+                {
+                  "id": "sync-vs-async",
+                  "title": "Synchronous vs Asynchronous processing",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/synchronous-and-asynchronous-programming/"
+                    }
+                  ]
+                },
+                {
+                  "id": "horizontal-vs-vertical-scaling",
+                  "title": "Horizontal vs Vertical scaling trade-offs",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/system-design-horizontal-and-vertical-scaling/"
+                    }
+                  ]
+                },
+                {
+                  "id": "consistency-availability",
+                  "title": "CAP Theorem - Consistency vs Availability trade-offs",
+                  "difficulty": "hard",
+                  "estimatedTime": 45,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/the-cap-theorem-in-dbms/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ownership",
+          "name": "Ownership Examples",
+          "subtopics": [
+            {
+              "id": "leadership-scenarios",
+              "name": "Leadership & Ownership",
+              "problems": [
+                {
+                  "id": "project-leadership",
+                  "title": "Describe leading a project from start to finish",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "mentoring-junior",
+                  "title": "Tell me about mentoring a junior engineer",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "conflict-resolution",
+                  "title": "Describe handling a technical disagreement with team",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "failed-project",
+                  "title": "Tell me about a project that failed - what did you learn?",
+                  "difficulty": "hard",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                },
+                {
+                  "id": "technical-decision",
+                  "title": "Explain a difficult technical decision you made and its impact",
+                  "difficulty": "medium",
+                  "estimatedTime": 30,
+                  "type": "explain",
+                  "links": [
+                    {
+                      "platform": "GeeksForGeeks",
+                      "url": "https://www.geeksforgeeks.org/behavioral-interview-questions/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
