@@ -1,0 +1,141 @@
+{
+  "progress": {
+    "two-sum": {
+      "completed": true,
+      "completedAt": "2026-01-02T16:52:14.498Z",
+      "updatedAt": "2026-01-02T16:52:14.498Z",
+      "notes": "Using hashmap and check compliment"
+    },
+    "container-most-water": {
+      "notes": "Solved using two pointer - start and end pointers.",
+      "updatedAt": "2026-01-02T15:16:49.661Z",
+      "completed": true,
+      "completedAt": "2026-01-02T15:16:49.661Z"
+    },
+    "3sum": {
+      "completed": true,
+      "completedAt": "2026-01-03T15:18:24.538Z",
+      "updatedAt": "2026-01-03T15:18:24.539Z"
+    },
+    "remove-duplicates-sorted-array": {
+      "completed": true,
+      "completedAt": "2026-01-03T15:18:36.782Z",
+      "updatedAt": "2026-01-03T15:18:36.782Z"
+    },
+    "valid-palindrome": {
+      "notes": "Solved using left right pointer\n",
+      "updatedAt": "2026-01-03T19:16:46.885Z",
+      "completed": true,
+      "completedAt": "2026-01-03T19:16:46.885Z"
+    },
+    "move-zeroes": {
+      "notes": "Two pointer and swap.\n",
+      "updatedAt": "2026-01-03T19:44:08.791Z",
+      "completed": true,
+      "completedAt": "2026-01-03T19:44:08.791Z"
+    },
+    "sort-colors": {
+      "completed": true,
+      "completedAt": "2026-01-03T19:56:22.589Z",
+      "updatedAt": "2026-01-03T19:56:52.875Z",
+      "notes": "count and re-insert.\nor\nUse dutch nation flag algorithm."
+    },
+    "longest-substring-without-repeating": {
+      "notes": "Slide window and use hashset or Map to store visited letters.",
+      "updatedAt": "2026-01-04T14:49:43.713Z",
+      "completed": true,
+      "completedAt": "2026-01-04T11:12:18.325Z"
+    },
+    "minimum-window-substring": {
+      "notes": "Use target and window map.\nCompare using sum of freq in both maps.\nif acieved try to shrink\nelse try to achieve.",
+      "updatedAt": "2026-01-04T17:12:33.476Z",
+      "completed": true,
+      "completedAt": "2026-01-04T17:12:32.483Z"
+    },
+    "longest-repeating-character-replacement": {
+      "notes": "Use target and window map.\nCompare using sum of freq in both maps.\nif achieved try to shrink\nelse try to achieve.",
+      "updatedAt": "2026-01-10T15:05:28.633Z",
+      "completed": true,
+      "completedAt": "2026-01-10T11:08:32.727Z"
+    },
+    "sliding-window-maximum": {
+      "notes": "https://chatgpt.com/g/g-p-6950df99855481918d40e8cdb07e05bc-dsa/c/696261bd-1c3c-8327-838f-7fa4e9f168be\n\n1. My solution submistted - https://leetcode.com/problems/sliding-window-maximum/submissions/1880817542/\n2. use ArrayDeque Datastructure - https://leetcode.com/problems/sliding-window-maximum/submissions/1880817970/",
+      "updatedAt": "2026-01-10T15:05:26.220Z",
+      "completed": true,
+      "completedAt": "2026-01-10T15:00:50.699Z"
+    },
+    "trapping-rain-water": {
+      "completed": true,
+      "completedAt": "2026-01-11T17:40:51.241Z",
+      "updatedAt": "2026-01-11T17:41:50.379Z",
+      "notes": "Use monotonic stack to cacl next greater element array ( Set boundary for -1 cases)\nCalculate area\nminus unable to staore water areas"
+    },
+    "permutation-in-string": {
+      "completed": true,
+      "completedAt": "2026-01-14T18:04:24.124Z",
+      "updatedAt": "2026-01-14T18:04:24.924Z",
+      "notes": "https://leetcode.com/problems/permutation-in-string/submissions/1885109401/\n\nSliding frequency update"
+    },
+    "fruit-into-baskets": {
+      "notes": "This problem is longest subarray for 2 distinct numbers.\n\nUse Hashmap with sliding frequency when ever limit exceeds.\n\nhttps://leetcode.com/problems/fruit-into-baskets/submissions/1885136772/",
+      "updatedAt": "2026-01-14T18:29:56.422Z",
+      "completed": true,
+      "completedAt": "2026-01-14T18:29:56.422Z"
+    },
+    "max-consecutive-ones-iii": {
+      "completed": true,
+      "completedAt": "2026-01-15T17:17:32.147Z",
+      "updatedAt": "2026-01-15T17:18:24.866Z",
+      "notes": "https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1886053841/\n\n\nTry as musch as possible and shrink when we exceeds zero."
+    },
+    "find-all-anagrams": {
+      "completed": true,
+      "completedAt": "2026-01-15T17:31:57.746Z",
+      "updatedAt": "2026-01-15T17:32:35.360Z",
+      "notes": "same as Permutation in String (Slight modification in when in increase right and left)\n\nhttps://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/1886071933/"
+    },
+    "subarray-sum-equals-k": {
+      "completed": true,
+      "completedAt": "2026-01-17T14:46:28.371Z",
+      "updatedAt": "2026-01-17T14:46:47.800Z",
+      "notes": "similar to Twosum;\n\n// subarray sum\n            // sumrange(Right) - sumrange(Left-1) = K\n            // sumrange(Left-1) = sumrange(Right) - K"
+    },
+    "range-sum-query": {
+      "completed": true,
+      "completedAt": "2026-01-17T14:55:38.732Z",
+      "updatedAt": "2026-01-17T14:55:53.849Z",
+      "notes": "simple prefixsum logic"
+    },
+    "product-array-except-self": {
+      "completed": true,
+      "completedAt": "2026-01-17T15:13:50.825Z",
+      "updatedAt": "2026-01-17T15:13:51.940Z",
+      "notes": "https://leetcode.com/problems/product-of-array-except-self/solutions/1342916/3-minute-read-mimicking-an-interview-by-1fpyp/"
+    },
+    "reverse-linked-list": {
+      "completed": true,
+      "completedAt": "2026-01-18T06:35:52.750Z",
+      "updatedAt": "2026-01-18T06:36:07.264Z",
+      "notes": "We can use Iterative and recursion."
+    },
+    "linked-list-cycle": {
+      "completed": true,
+      "completedAt": "2026-01-18T06:53:52.475Z",
+      "updatedAt": "2026-01-18T06:53:52.475Z",
+      "notes": "Set or [Slow and Fast pointers]"
+    },
+    "palindrome-linked-list": {
+      "notes": "1. find the mid using slow and fast pointers\n2. Use reverse lgic torever right part from slow.\n3. compare left part and right part.",
+      "updatedAt": "2026-01-18T16:42:01.868Z",
+      "completed": true,
+      "completedAt": "2026-01-18T16:42:01.868Z"
+    }
+  },
+  "settings": {
+    "showDifficulty": false,
+    "showEstimatedTime": false,
+    "darkMode": true
+  },
+  "customProblems": [],
+  "lastUpdated": "2026-01-18T17:10:00.000Z"
+}
